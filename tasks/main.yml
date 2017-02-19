@@ -1,0 +1,7 @@
+---
+
+- include: gsetting.yml
+  with_items:
+    - "{{ gsettings }}"
+  loop_control:
+    loop_var: gsetting

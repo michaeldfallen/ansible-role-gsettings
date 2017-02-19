@@ -1,0 +1,10 @@
+---
+
+- name: "Set gsettings for {{ gsetting.schema }}"
+  gsettings:
+    schema: "{{ gsetting.schema }}"
+    key: "{{ item.key }}"
+    value: "{{ item.value }}"
+  with_items:
+    - "{{ gsetting.settings }}"
+

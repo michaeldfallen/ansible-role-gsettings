@@ -1,0 +1,11 @@
+---
+
+# Set gsettings
+#
+# gsettings:
+#   - schema: org.gnome.desktop.interface
+#     settings:
+#       - key: gtk-theme
+#         value: arc-darker
+#
+gsettings: false
